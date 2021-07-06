@@ -100,10 +100,10 @@ async def typewriter(typew):
     await typew.edit("**EH NGENTOT...!**")
 
 
-@register(outgoing=True, pattern='^.ucp(?: |$)(.*)')
+@register(outgoing=True, pattern='^.al(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Lu siapa si ngentooootttt!!!!**")
+    await typew.edit("**AL NIH BOSH, BUKAN ANGKATAN LAUT YA KONTOL!!!**")
 
 
 @register(outgoing=True, pattern='^.hey(?: |$)(.*)')
