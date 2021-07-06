@@ -78,10 +78,10 @@ async def typewriter(typew):
     await typew.edit("**MACAM BAGUS AE LU BEGITU KONTOL!!**")
 
 
-@register(outgoing=True, pattern='^J(?: |$)(.*)')
+@register(outgoing=True, pattern='^.mutualan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**JELEK BANGET LU, NAJIS CUIHHHH!!!**")
+    await typew.edit("**INSTAGRAM: lodwyg.antameng, follow, langsung gw follback")
 
 
 @register(outgoing=True, pattern='^A(?: |$)(.*)')
