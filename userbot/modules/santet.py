@@ -9,9 +9,9 @@ async def typewriter(typew):
     await typew.edit(f"`{ALIVE_NAME} Berusaha Menyantet Jamet Ini`")
     sleep(2)
     await typew.edit("`Mencari Identitas Jamet Ini...`")
-    sleep(1)
+    sleep(3)
     await typew.edit("`Santet Online Otw, Jan Salahin Gw Kalo Hp Lo NgeFreeze, Hang, Lag, Ato Ketutup Sendiri Tod!`")
-    sleep(1)
+    sleep(4)
     await typew.edit("0%")
     number = 1
     await typew.edit(str(number) + "%   ▎")
