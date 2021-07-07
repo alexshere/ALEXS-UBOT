@@ -17,11 +17,11 @@ async def corona(event):
     if country_data:
         output_text = f"`⚠️Terdeteksi : {country_data['confirmed']} (+{country_data['new_cases']})`\n"
         output_text += f"`☢️Aktif         : {country_data['active']}`\n"
-        output_text += f"`🤕mau mati        : {country_data['critical']}`\n"
-        output_text += f"`😟baru banget mati : {country_data['new_deaths']}`\n\n"
-        output_text += f"`⚰️dah tewas tot     : {country_data['deaths']} (+{country_data['new_deaths']})`\n"
-        output_text += f"`😔kasus baru    : {country_data['new_cases']}`\n"
-        output_text += f"`😇 Alhamdulillah        : {country_data['recovered']}`\n"
+        output_text += f"`🤕Kritsi        : {country_data['critical']}`\n"
+        output_text += f"`😟Kasus kematian baru : {country_data['new_deaths']}`\n\n"
+        output_text += f"`⚰️Total kematian     : {country_data['deaths']} (+{country_data['new_deaths']})`\n"
+        output_text += f"`😔Kasus positif baru    : {country_data['new_cases']}`\n"
+        output_text += f"`😇 Alhamdulillah sembuh ye kan       : {country_data['recovered']}`\n"
         output_text += "`📍Total Tes     : N/A`\n\n"
         output_text += f"Data disediakan oleh [Worldometer](https://www.worldometers.info/coronavirus/country/{country})"
     else:
