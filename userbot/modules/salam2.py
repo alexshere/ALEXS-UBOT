@@ -1,7 +1,3 @@
-Gausah kesini ngentot!!
-# NGEDIT CMD YG BENER KONTOL!!!
-
-
 from platform import uname
 from userbot import ALIVE_NAME, CMD_HELP
 from userbot.events import register
