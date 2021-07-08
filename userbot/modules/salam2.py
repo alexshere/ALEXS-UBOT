@@ -1,4 +1,4 @@
-4Gausah kesini ngentot!!
+Gausah kesini ngentot!!
 # NGEDIT CMD YG BENER KONTOL!!!
 
 
